@@ -1,0 +1,33 @@
+.first-div{
+    background-color: gray;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.second-div{
+    background-color: tan;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.third-div{
+    background-color: aqua;
+    padding: 5px;
+    margin-top:50px;
+    margin-left: 75px;
+    border: 5px solid blue;
+}
+.fourth-div{
+    background-color: bisque;
+    padding-left: 20vw;
+    margin-left: 10vw;
+    height: 20vw;
+    width: 30vw;
+}
+.centered-div{
+    margin-left: 20vw;
+    width: 60vw;
+    background-color:cadetblue;
+}

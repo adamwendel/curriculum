@@ -155,6 +155,49 @@ Concepts to go over:
 ### Advanced File Structure
 Up to this point, everything has been placed in the same folder.
 Teach the following:
-* Proper websites have index in root directory (explain root)
-* 
+* Websites generally have index file in root directory (explain root)
+ * Other pages in Html folder
+ * Images in Images Folder
+ * Styles in css folder
+ * Scripts in Scripts folder
+Thus far, if we have been linking to a file in the same directory, it has been an **absolute** reference
+
+Relative file paths: use ../ to go back a directory or to another folder.
+
+Go up a directory: ../
+Go down a directory: /
+
+Examples:
+* ../index.html
+ * used when you are linking from a page in the html folder to go back to the index.
+* css/styles.css
+ * used to go into the images folder or the 
+ styles folder
+ 
+ lessonTwo.html
+ ```Html
+<head>
+    <link href="css/lessonTwo.css" rel=stylesheet type="text/css">
+</head>
+<body>
+    <a href="html/about.html">About</a>
+    <img src="../newGoogle.PNG">
+</body>
+```
+
+html/about.html
+
+This block of code includes in the header a complex going back to the previous folder and then into another folder in order to get to the styles
+```HTML
+<head>
+    <link href="../css/lessonTwo.css" rel=stylesheet type="text/css">
+</head>
+
+<body>
+    <a href="../lessonTwo.html">Home Page</a>
+    <br>
+    <p>this page just exists to show how to go back a directory to link to another page.</p>
+</body>
+```
+
 

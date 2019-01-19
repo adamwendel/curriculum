@@ -1,0 +1,30 @@
+.iPhone{
+    width: 300px;
+    background-color: gray;
+    color: white
+}
+.both{
+    margin-left: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+.android{
+    margin-left: 600px;
+    width: 300px;
+    background-color: lightgreen;
+}
+.iPhoneTwo{
+    background-color: gray;
+    width: 33vw;
+    color: white;
+}
+.bothTwo{
+    background-color: aqua;
+    width: 33vw;
+    margin-left: 33vw
+}
+.androidTwo{
+    background-color: lightgreen;
+    width: 33vw;
+    margin-left: 66vw;
+}

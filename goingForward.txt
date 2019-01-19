@@ -1,0 +1,13 @@
+Diverging Paths at Lesson 5:
+
+5.1 would cover making responsive columns using the different breakpoints (more advanced but it makes sense to cover right after the other)
+
+
+5.2 would continue with basic columns and focus more on seeing how content aligns and making a left column naviagtion bar, and using the color styling and text alignment classes 
+
+
+6 Would cover making tables using the .table class
+
+7 would cover making navs
+
+8 would cover making cards

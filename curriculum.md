@@ -208,7 +208,7 @@ This block of code includes in the header a complex going back to the previous f
 </body>
 ```
 
-Lesson 3
+Lesson 3 - Introduce Boostrap
 -------------------------------
 ### Objectives
  1) introduce the idea of a front-end web framework
@@ -263,12 +263,70 @@ Create a container
 ```
 Demonstrate a before/after with the container and what happens by adding that one line of code (the content is centered, no matter the window size)
 
+Drag the windows size around and show that depending on the size of the browser window, sometimes the container is the full size of the browser window and other times it only takes up the middle area.
+
 Everything that should go in the main body area should go into a container. Most of the time a Nav Bar is not included inside the container but stretches the width of the window
 
 
 ### Projects ----- TO BE ADDED AT A LATER DATE
 
 
-Lesson Four
---------------------
+Lesson Four - Introduce Columns and Rows
+----------------------------------------
+Objectives
+
+ 1) Review Containers
+ 
+ 2) Introduce Rows
+ 
+ 3) Introduce Columns
+ 
+### Review Containers
+
+### Introduce Rows
+Once again go back to the skillstruck website to show off what different rows of content look like on the site.
+
+To create a row
+```Html
+    <div class="row">
+        <p>content goes here</p>
+    </div>
+```
+Rows help group content together, which is especially helpful when you are wanting to create columns.
+
+### Introduce Columns
+
+![](bootstrapColumnsDemo.png)
+
+*Note: either use the image above as an example or create your own in excel or the like*
+
+Bootstrap columns are based off of the number 12. To create two equal width columns, use col-6. For three equal columns, use col-4. Columns do not have to be the same size.
+
+```Html
+<div class="row">
+    <div class="col-6">
+        <p>This column takes up half of the space.</p>
+    </div>
+    <div class="col-6">
+        <p>This column takes up the other half of the space</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <p>This column could be a left nav</p>
+    </div>
+    <div class="col-6">
+        <p>This column would be the center content</p>
+    </div>
+    <div class="col-3">
+        <p>This column could be a right nav</p>
+    </div>
+</div>
+
+```
+
+### Project
+Create a Tic-Tac-Toe board using rows and columns. Create your own background color classes or use bootstraps (bg-primary and bg-secondary)
+ 
+ 
 
